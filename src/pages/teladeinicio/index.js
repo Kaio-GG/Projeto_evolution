@@ -10,7 +10,7 @@ export default function index () {
         <div className='mt-i'>
             <div className="mae">
         <div className="cabeçalho">
-            <img src="/public/assets/image/logo1.svg" className="log" alt=""/>
+            <img src="../../../public/assets/image/logo1.svg" className="log" alt=""/>
             <input type="text" className="caixa"/>
             <div className="btns">
           

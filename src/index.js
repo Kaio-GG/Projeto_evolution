@@ -1,13 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Routes , Route } from 'react-router-dom';
-import Anuncio from './pages/telaanuncio';
-import Login from './pages/login';
-import Publicar from './pages/publicar';
-import Cadastro from './pages/cadastro';
-import Usuario from './pages/menuusuario';
-import Home from './pages/teladeinicio';
+import Anuncio from './pages/Telaanuncio';
+import Login from './pages/Login';
+import Publicar from './pages/Publicar';
+import Cadastro from './pages/Cadastro';
+import Usuario from './pages/Menuusuario';
+import Home from './pages/Teladeinicio';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,11 +18,11 @@ root.render(
     <BrowserRouter>
     <Routes>
     <Route path='/' exact element={<Home/>}/>;
-    <Route path='/login' exact element={<Login/>}/>;
-    <Route path='/cadastro' exact element={<Cadastro/>}/>;
-    <Route path='/usuario' exact element={<Usuario/>}/>;
-    <Route path='/publicar' exact element={<Publicar/>}/>;
-    <Route path='/anuncio' exact element={<Anuncio/>}/>;
+    <Route path='\Login' exact element={<Login/>}/>;
+    <Route path='/Cadastro' exact element={<Cadastro/>}/>;
+    <Route path='/Usuario' exact element={<Usuario/>}/>;
+    <Route path='/Publicar' exact element={<Publicar/>}/>;
+    <Route path='/Anuncio' exact element={<Anuncio/>}/>;
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

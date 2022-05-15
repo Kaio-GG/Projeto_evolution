@@ -1,6 +1,8 @@
 import './index.scss';
 import { Link } from "react-router-dom";
 
+import React from 'react';
+
 export default function index() {
     return(
         <main className="mae-anuncio">
@@ -30,7 +32,7 @@ export default function index() {
         </div>
     </div>
         <div>
-            <img className="anuncio" src="../../../a" alt=""/>
+            <img className="anuncio" src="../../../public/assets/image/foto-usuario.svg" alt=""/>
     </div>
 </div>
     <div className="anuncio-3">
@@ -49,6 +51,5 @@ export default function index() {
       </p>
     </div>
     </main>
-    )
-    
+    );
 }

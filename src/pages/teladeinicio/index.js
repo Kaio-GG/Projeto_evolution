@@ -10,7 +10,7 @@ export default function index () {
         <div className='mt-i'>
             <div className="mae">
         <div className="cabeçalho">
-            <img src="/public/assets/image/logo1.svg" className="log" alt=""/>
+            <img src="/assets/image/logo1.svg" className="log" alt=""/>
             <input type="text" className="caixa"/>
             <div className="btns">
           
@@ -28,7 +28,7 @@ export default function index () {
         </div>
         <div className="faixa-1">
             <div className="anuncio">
-                <img className="imag" src='/public/assets/image/logo1.svg' alt=""/>
+                <img className="imag" src='/assets/image/console-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>

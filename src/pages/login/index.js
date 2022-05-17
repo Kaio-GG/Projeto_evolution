@@ -30,9 +30,9 @@ export default  function index() {
                 <input className="te"type="text"/>
               </div>
             </div>
-           <Link style={{textDecoration: 'none'}} className="btn-2" href="../menuusuario/index.html">PRONTO</Link>
+           <Link style={{textDecoration: 'none'}} className="btn-2" to="/usuario">PRONTO</Link>
         </div>
-        <Link style={{textDecoration: 'none'}} className="btn" href="../cadastro/index.html"> <p className="text">FAZER NOVO CADASTRO </p> 
+        <Link style={{textDecoration: 'none'}} className="btn" to="/cadastro"> <p className="text">FAZER NOVO CADASTRO </p> 
         </Link >
     </div>
     </div>

@@ -16,14 +16,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-    <Route path='/' exact element={<Home/>}/>;
-    <Route path='/login' exact element={<Login/>}/>;
-    <Route path='/cadastro' exact element={<Cadastro/>}/>;
-    <Route path='/usuario' exact element={<Usuario/>}/>;
-    <Route path='/publicar' exact element={<Publicar/>}/>;
-    <Route path='/anuncio' exact element={<Anuncio/>}/>;
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Home/>}/>;
+        <Route path='/login' element={<Login/>}/>;
+        <Route path='/cadastro' element={<Cadastro/>}/>;
+        <Route path='/usuario' element={<Usuario/>}/>;
+        <Route path='/publicar' element={<Publicar/>}/>;
+        <Route path='/anuncio' element={<Anuncio/>}/>;
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

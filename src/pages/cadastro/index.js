@@ -10,11 +10,11 @@ export default function cadastro() {
     return(
         <div className="mae-cadastro">
         <div className="cabeçalho">
-            <img src="../../assets/image/logo1.svg" className="log" alt=""/>
-            <Link style={{textDecoration: "none"}} className="btn1" to="">
+            <img src="/assets/image/logo1.svg" className="log" alt=""/>
+            <Link style= {{textDecoration: "none"}} className="btn1" to="/">
                <p className="text"> INICIO</p>
             </Link>
-            <Link style={{textDecoration: "none"}} className="btn" to="">
+            <Link style={{textDecoration: "none"}} className="btn" to="/login">
                 <p className="text"> LOGIN</p>
              </Link>
         </div>
@@ -52,7 +52,7 @@ export default function cadastro() {
             <div className="caixa-2">
                 <h3 className="text">IMAGEM DO USUARIO</h3>
                 <img className="img" src="../../assets/image/foto-usuario.svg"  alt=""/>
-                <Link style={{textDecoration: "none"}} className="btn-2" to="">PRONTO</Link>
+                <Link style={{textDecoration: "none"}} className="btn-2" to="/usuario">PRONTO</Link>
             </div>
         </div>
         </div>

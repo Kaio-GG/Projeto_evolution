@@ -7,7 +7,7 @@ export default  function index() {
         <div className="mt">
             <div className="mae">
         <div className="cabeçalho">
-            <img src='' className="log" alt=""/>
+            <img src='/assets/image/logo1.svg' className="log" alt=""/>
             <Link style={{textDecoration: 'none'}} className="btn1" to="/">
                <p className="text"> INICIO</p>
             </Link>

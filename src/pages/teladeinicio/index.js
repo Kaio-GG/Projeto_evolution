@@ -28,55 +28,55 @@ export default function index () {
         </div>
         <div className="faixa-1">
             <div className="anuncio">
-                <img className="imag" src='/assets/image/console-exe.svg' alt=""/>
+                <img className="imag" src="/assets/image/console-exe1.png" alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="./telaanuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="./anuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src='/public/assets/image/console-exe1.png' alt=""/>
+                <img className="imag" src='/assets/image/console-exe1.png' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="../anuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/console-exe1.png' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-5">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/console-exe1.png' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
             <button className="seta">
-                <img className="img-seta" src='../../../public/assets/image/seta-logo1.png' alt=""/>
+                <img className="img-seta" src='/assets/image/seta-logo1.png' alt=""/>
             </button>
         </div>
 
@@ -86,55 +86,55 @@ export default function index () {
         </div>
         <div className="faixa-2">
             <div className="anuncio">
-                <img className="imag" src='' alt="" />
+                <img className="imag" src='/assets/image/celular-exe.svg' alt="" />
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">LG velvet </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">LG velvet </Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/celular-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">LG velvet</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="telaanuncio">LG velvet</Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/celular-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">LG velvet</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">LG velvet</Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-5">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/celular-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">LG velvet </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">LG velvet </Link> 
                 </div>
                 </div>
             </div>
             <button className="seta">
-                <img className="img-seta" src=''alt=""/>
+                <img className="img-seta" src='/assets/image/seta-logo1.png'  alt=""/>
             </button>
         </div>  
         <div className="card-2">       
@@ -142,50 +142,50 @@ export default function index () {
         </div>
         <div className="faixa-3">
             <div className="anuncio">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/notebook-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315 </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315 </Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/notebook-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/notebook-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-5">
-                <img className="imag" src=''alt="" />
+                <img className="imag" src='/assets/image/notebook-exe.svg'alt="" />
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315 </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315 </Link> 
                 </div>
                 </div>
             </div>
@@ -198,50 +198,50 @@ export default function index () {
         </div>
         <div className="faixa-3">
             <div className="anuncio">
-                <img className="imag" src='' alt=""/>
+                <img className="imag" src='/assets/image/notebook-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src=''alt=""/>
+                <img className="imag" src='/assets/image/TELEVISAO.pnj'alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
-                        2.374,90</p>
+                    <p> Preço </p> <br/>
+                       <p> 2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src= '' alt=""/>
+                <img className="imag" src= '/assets/image/console-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315 </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315 </Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-5">
-                <img className="imag" src='' alt="" />
+                <img className="imag" src='/assets/image/notebook-exe.svg' alt="" />
                 <div className="ali">
                 <div className="quad">
                     <p> Preço <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../telaanuncio/index.html">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>

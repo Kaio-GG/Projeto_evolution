@@ -15,10 +15,10 @@ export default function index (){
             </div>
             </div>
             <div className="btns">
-              <Link  className="btn1" style={{textDecoration: 'none'}} href="../publicar/index.html">
+              <Link  className="btn1" style={{textDecoration: 'none'}} to="/publicar">
                 PUBLICAR PRODUTO
               </Link> 
-              <Link  className="btn2" style={{textDecoration: 'none'}} href="../teladeinicio/index.html">
+              <Link  className="btn2" style={{textDecoration: 'none'}} to="/teladeinicio">
                 INICIO
             </Link> 
             </div>
@@ -37,7 +37,7 @@ export default function index (){
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration: 'none'}} href="../publicar/index.html">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration: 'none'}} to="/publicar">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ export default function index (){
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration: 'none'}} to="../telaanuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration: 'none'}} to="/telaanuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ export default function index (){
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration: 'none'}} href="../publicar/index.html">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration: 'none'}} to="/publicar">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ export default function index (){
                             2.374,90</p>
                     </div>
                     <div className="quad-2">
-                        <Link className="a1" style={{textDecoration: 'none'}} href="../publicar/index.html">Nintendo Switch </Link> 
+                        <Link className="a1" style={{textDecoration: 'none'}} to="/publicar">Nintendo Switch </Link> 
                     </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ export default function index (){
                             2.374,90</p>
                     </div>
                     <div className="quad-2">
-                        <Link className="a1" style={{textDecoration: 'none'}} href="../publicar/index.html">Nintendo Switch </Link> 
+                        <Link className="a1" style={{textDecoration: 'none'}} to="/publicar">Nintendo Switch </Link> 
                     </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ export default function index (){
                             2.374,90</p>
                     </div>
                     <div className="quad-2">
-                        <Link className="a1" style={{textDecoration: 'none'}} href="../publicar/index.html">Nintendo Switch </Link> 
+                        <Link className="a1" style={{textDecoration: 'none'}} to="../publicar/index.html">Nintendo Switch </Link> 
                     </div>
                     </div>
                 </div>

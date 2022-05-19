@@ -11,11 +11,11 @@ export default function index() {
             <img src="../../assets/image/logo1.svg" className="log" alt=""/>
             <div className="btns">
           
-              <Link  className="btn1" style={{textDecoration: 'none'}} href="../teladeinicio/index.html">
+              <Link  className="btn1" style={{textDecoration: 'none'}} to="/">
                  INICIO
               </Link> 
               <Link 
-               className="btn2" style={{textDecoration: 'none'}} href="../menuusuario/index.html">
+               className="btn2" style={{textDecoration: 'none'}} to="/usuario">
                 HOME
              </Link> 
         </div>
@@ -49,6 +49,7 @@ export default function index() {
             </div>
         </div>
     </div>
+
 </div>  
-    );
+    )
 }

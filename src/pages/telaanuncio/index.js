@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 import React from 'react';
 
 export default function index() {
+    document.title = 'Anuncio'
     return(
         <main className="mae-anuncio">
         <div className="cabeçalho">
             <img src='/assets/image/logo1.svg' className="log" alt=""/>
             <div className="btns">
           
-              <Link  className="btn1" style={{textDecoration: 'none'}} to="/home">
+              <Link  className="btn1" style={{textDecoration: 'none'}} to="/">
                  INICIO
               </Link> 
               <Link 
@@ -36,7 +37,9 @@ export default function index() {
     </div>
 </div>
     <div className="anuncio-3">
+        <div className='tex-2'>
         <h1>DESCRIÇÃO</h1>
+        </div>
       <p> 
            Descrição do produto O LG 
           Velvet é um smartphone que po

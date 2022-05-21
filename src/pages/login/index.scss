@@ -9,6 +9,7 @@
 .cabeçalho{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border-bottom:0px;
     position:fixed;
     background-color: #EDEDED;
@@ -25,8 +26,8 @@
     width: 100PX;
     border: none;
     color: whitesmoke;
-    margin-left: 1000px;
     margin-top: 10px;
+    margin-right: 5%;
 }
 .btn{
     display: flex;

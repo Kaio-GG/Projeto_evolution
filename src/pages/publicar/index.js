@@ -5,6 +5,7 @@ import React from 'react';
 
 
 export default function index() {
+    document.title = 'Publicar'
     return(
         <div className="mae-publicar">
         <div className="cabeçalho">

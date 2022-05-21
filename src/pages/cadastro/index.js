@@ -7,6 +7,7 @@ import React from 'react';
 
 
 export default function cadastro() {
+    document.title = 'Cadastro'
     return(
         <div className="mae-cadastro">
         <div className="cabeçalho">

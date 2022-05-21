@@ -5,7 +5,7 @@ import React from 'react';
 
 
 export default function index () {
-
+    document.title = 'Evolution site'
     return(
         <div className='mt-i'>
             <div className="mae">
@@ -31,11 +31,11 @@ export default function index () {
                 <img className="imag" src="/assets/image/console-exe1.png" alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
-                        2.374,90</p>
+                <p> Preço:  <br/>
+                   2.374,90 </p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="./anuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
@@ -43,11 +43,11 @@ export default function index () {
                 <img className="imag" src='/assets/image/console-exe1.png' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="../anuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ export default function index () {
                 <img className="imag" src='/assets/image/console-exe1.png' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
@@ -67,11 +67,11 @@ export default function index () {
                 <img className="imag" src='/assets/image/console-exe1.png' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>
@@ -89,11 +89,11 @@ export default function index () {
                 <img className="imag" src='/assets/image/celular-exe.svg' alt="" />
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">LG velvet </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">LG velvet </Link> 
                 </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@ export default function index () {
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="telaanuncio">LG velvet</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="anuncio">LG velvet</Link> 
                 </div>
                 </div>
             </div>
@@ -113,11 +113,11 @@ export default function index () {
                 <img className="imag" src='/assets/image/celular-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">LG velvet</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">LG velvet</Link> 
                 </div>
                 </div>
             </div>
@@ -125,11 +125,11 @@ export default function index () {
                 <img className="imag" src='/assets/image/celular-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">LG velvet </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">LG velvet </Link> 
                 </div>
                 </div>
             </div>
@@ -145,11 +145,11 @@ export default function index () {
                 <img className="imag" src='/assets/image/notebook-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315 </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315 </Link> 
                 </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@ export default function index () {
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>
@@ -169,11 +169,11 @@ export default function index () {
                 <img className="imag" src='/assets/image/notebook-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>
@@ -181,16 +181,16 @@ export default function index () {
                 <img className="imag" src='/assets/image/notebook-exe.svg'alt="" />
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315 </Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315 </Link> 
                 </div>
                 </div>
             </div>
             <button className="seta">
-                <img className="img-seta" src=''alt=""/>
+                <img className="img-seta" src='/assets/image/seta-logo1.png'alt=""/>
             </button>
         </div>
         <div className="card-3">       
@@ -201,20 +201,20 @@ export default function index () {
                 <img className="imag" src='/assets/image/notebook-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço: <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration:'none'}} to="/telaanuncio">Acer Aspire 3 A315</Link> 
+                    <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315</Link> 
                 </div>
                 </div>
             </div>
             <div className="anuncio-2">
-                <img className="imag" src='/assets/image/TELEVISAO.pnj'alt=""/>
+                <img className="imag" src='/assets/image/TELEVISAO.png'alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço </p> <br/>
-                       <p> 2.374,90</p>
+                    <p> Preço:  <br/>
+                        2.374,90</p>
                 </div>
                 <div className="quad-2">
                     <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315</Link> 
@@ -225,7 +225,7 @@ export default function index () {
                 <img className="imag" src= '/assets/image/console-exe.svg' alt=""/>
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
+                    <p> Preço:  <br/>
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
@@ -237,8 +237,8 @@ export default function index () {
                 <img className="imag" src='/assets/image/notebook-exe.svg' alt="" />
                 <div className="ali">
                 <div className="quad">
-                    <p> Preço <br/>
-                        2.374,90</p>
+                <p> Preço:  <br/>
+                      2.374,90</p>
                 </div>
                 <div className="quad-2">
                     <Link className="a1" style={{textDecoration:'none'}} to="/anuncio">Acer Aspire 3 A315</Link> 

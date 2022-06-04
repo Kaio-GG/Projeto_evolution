@@ -112,7 +112,14 @@ border-radius: 5px;
     color: #fff;
     border-radius: 5px;
 }
-
+.btn2:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.btn1:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
 
 .anuncio-3{
     display: flex;

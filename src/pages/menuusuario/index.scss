@@ -64,6 +64,7 @@ margin-left: 2%;
 .body{
 display: flex;
 flex-direction: column;
+height: 800px;
 }
 .ali{
     display: flex;
@@ -162,4 +163,24 @@ justify-content: space-evenly;
         margin-top: 10px;
         margin-right: 20px;
         }
+    }
+    .anuncio-2:hover{
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+        }
+        .anuncio:hover{
+            -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+        }
+        .anuncio-5:hover{
+            -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+        }
+    .btn2:hover{
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+    .btn1:hover{
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
     }

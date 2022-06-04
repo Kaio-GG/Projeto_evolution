@@ -72,6 +72,14 @@
     font-family: "fonte1";
     color:black;
 }
+.btn2:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.btn1:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
 .faixa{
     display: flex;
     flex-direction: row;
@@ -94,6 +102,7 @@
         box-shadow: 2px 5px 5px #A59F9F;
         background-color: #fff;
         margin-top: 20px;
+        margin-bottom: 100px;
 }
 .body{
     display: flex;

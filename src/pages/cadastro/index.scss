@@ -40,21 +40,29 @@ margin-left: 10px;
 margin-right: 10px;
     
 }
+.btn:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.btn1:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
 .faixa{
 display: flex;
 flex-direction: column;
 width: 1000px;
 border-radius: 5px;
-height: 1000px;
+height: 800px;
 display: flex;
 flex-direction: column;
-width: 1000px;
 border-radius: 20px;
 justify-content: center;
 align-items: center;
 opacity: 1;
 box-shadow: 2px 5px 5px #A59F9F;
 background-color: #fff;
+margin-bottom: 100px;
 }
 .body{
 display: flex;

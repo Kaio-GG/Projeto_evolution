@@ -44,6 +44,14 @@
     width: 200px;
     margin-right: 50px;
 }
+.btn2:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.btn1:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
 .faixa{
 display: flex;
 flex-direction: column;

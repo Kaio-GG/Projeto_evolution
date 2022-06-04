@@ -15,7 +15,7 @@ export default function index() {
                  INICIO
               </Link> 
               <Link 
-               className="btn2" style={{textDecoration: 'none'}} to="login">
+               className="btn2" style={{textDecoration: 'none'}} to="/login">
                 LOGIN
              </Link> 
         </div>

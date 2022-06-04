@@ -40,10 +40,6 @@ export default function cadastro() {
                 <div  className="caixas">
                     <p>NOME</p>
                     <input className="te" type="text"/>
-                    <p>SOBRENOME</p>
-                    <input className="te" type="text"/>
-                    <p>CONTATO</p>
-                    <input className="te" type="text"/>
                     <p>E-MAIL</p>
                     <input className="te" type="text"/>
                     <p>SENHA</p>

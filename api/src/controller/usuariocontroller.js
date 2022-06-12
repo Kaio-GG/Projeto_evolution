@@ -14,10 +14,10 @@ server.post('/usuario', async (req,resp) => {
             throw new Error ('campo do nome é obrigatorio')
         }
         if (!novousuario.email) {
-            throw new Error ('campo da avaliacao é obrigatorio')
+            throw new Error ('campo do email é obrigatorio')
         }
         if (!novousuario.senha) {
-            throw new Error ('campo do lancamento é obrigatorio')
+            throw new Error ('campo da senha é obrigatorio')
         }
 
         const resposta = await novoUsuario(novousuario)
@@ -25,7 +25,7 @@ server.post('/usuario', async (req,resp) => {
         resp.send(resposta)
         
     } catch (err) {
-        resp.status(200).send({
+        resp.status(401).send({
             erro:err.message
         })
     }

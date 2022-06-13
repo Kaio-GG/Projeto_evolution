@@ -26,7 +26,7 @@ export default function index() {
         <div className="org">
         <h1 className="text">Coloque uma foto do seu produto</h1>
         <button className="btn-f1" type="submit">TROCAR FOTO</button>
-        <p className="text">Atenção essa foto será publica </p>
+        <p className="text-aviso">Atenção essa foto será publica </p>
         <h3 className="text">Telefone para contato :</h3>
         <input className="te" type="text"/>
         </div>
@@ -45,7 +45,7 @@ export default function index() {
             </div>
             <div className="org-2">
                 <h3>Coloque a descrição do produto:</h3>
-                <input className="te-3" type="text"/>
+                <textarea className="te-3" type="text"/>
                 <button className="btn-f1">PRONTO</button>
             </div>
         </div>

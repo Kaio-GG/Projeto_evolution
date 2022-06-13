@@ -50,7 +50,7 @@ export default function index (){
                         2.374,90</p>
                 </div>
                 <div className="quad-2">
-                    <Link className="a1" style={{textDecoration: 'none'}} to="/anuncio">Nintendo Switch </Link> 
+                    <Link className="a1" style={{textDecoration: 'none'}} to="/publicar">Nintendo Switch </Link> 
                 </div>
                 </div>
             </div>

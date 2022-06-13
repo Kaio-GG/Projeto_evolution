@@ -75,9 +75,9 @@ export default function index () {
                 </div>
                 </div>
             </div>
-            <button className="seta">
-                <img className="img-seta" src='/assets/image/seta-logo1.png' alt=""/>
-            </button>
+          
+            
+            
         </div>
 
 
@@ -133,9 +133,7 @@ export default function index () {
                 </div>
                 </div>
             </div>
-            <button className="seta">
-                <img className="img-seta" src='/assets/image/seta-logo1.png'  alt=""/>
-            </button>
+                       
         </div>  
         <div className="card-2">       
             NOTEBOOK
@@ -189,9 +187,6 @@ export default function index () {
                 </div>
                 </div>
             </div>
-            <button className="seta">
-                <img className="img-seta" src='/assets/image/seta-logo1.png'alt=""/>
-            </button>
         </div>
         <div className="card-3">       
            PRODUTOS QUE TALVEZ VOCÊ GOSTE

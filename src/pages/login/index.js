@@ -18,16 +18,16 @@ export default  function index() {
             <h1>FAÇA SEU LOGIN</h1>
             <div className="linha">
             <div className="tex">
-               <h1>
+               <p className='text'>
                 e-mail
-                </h1>
+                </p>
                <input className="te" type="text"/> 
             </div>
             <div className="tex-2"> 
                
-                <h1>
+                <p className='text'>
                 senha
-                </h1>
+                </p>
                 <input className="te"type="text"/>
               </div>
             </div>
